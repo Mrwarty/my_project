@@ -4,8 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import 'babel-polyfill'
-import './assets/css/common.css'
-import Common from './assets/js/common'
+import '@/assets/css/common.less'
+import Common from '@/assets/js/common'
+
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
