@@ -70,7 +70,7 @@ const common = {
 	        timeout:timeOver,
 	        data: qs.stringify(data)
       	}).then(callback);
-   	}
+	}
 	/**
 	 * 设置localStorage
 	 */

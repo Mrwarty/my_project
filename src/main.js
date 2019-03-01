@@ -13,8 +13,14 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 Vue.use(Common); //引用自定义公共common.js
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
+//路由拦截
+router.beforeEach((to,form,next)=>{
+	console.log(to)
+	console.log(form)
+	next();
+});
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
